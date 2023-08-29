@@ -9,6 +9,8 @@
 
 Welcome to the Pizza App! This application allows users to conveniently order pizzas of their choice, select different sizes, and make payments using PayPal. Whether you're a pizza enthusiast or just craving a delicious slice, our app has got you covered.
 
+Its a very simple app with to test api payments.
+
 ## Table of Contents
 
 - [Pizza App with PayPal Integration - README](#pizza-app-with-paypal-integration---readme)
@@ -34,13 +36,13 @@ Welcome to the Pizza App! This application allows users to conveniently order pi
 1. Clone this repository to your local machine using:
 
    ```
-   git clone https://github.com/yourusername/pizza-app.git
+   git clone https://github.com/bk201grsameer/FoodApp.git
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd pizza-app
+   cd FoodApp
    ```
 
 3. Install the required dependencies:
@@ -63,7 +65,7 @@ Welcome to the Pizza App! This application allows users to conveniently order pi
    npm start
    ```
 
-6. Access the app through your web browser at `http://localhost:3000`.
+6. Access the app through your web browser at `http://localhost:5000`.
 
 ## Usage
 
@@ -73,7 +75,7 @@ Welcome to the Pizza App! This application allows users to conveniently order pi
 4. Review your order by clicking on the cart icon.
 5. Click the "Proceed to Checkout" button.
 6. You'll be redirected to PayPal for payment processing.
-7. After successful payment, you'll receive an email confirmation with your order details.
+7. After successful payment, you'll receive an confirmation with your order details.
 
 ## PayPal Integration
 
