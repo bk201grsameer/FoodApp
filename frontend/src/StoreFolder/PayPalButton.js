@@ -5,8 +5,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { setSubTotal, updateCart, updateSubTotal } from "../StoreFolder/cartSlice";
 
 const PayPalButton = ({ setError }) => {
-  const CLIENT_ID ="your uri here"
-   
+  const CLIENT_ID = "enter uri here";
+
   const dispatch = useDispatch();
 
   //user Global Config
@@ -18,7 +18,7 @@ const PayPalButton = ({ setError }) => {
     return state.cartArray.subtotal;
   });
 
-  console.log("[+] INSIDE PAYPAL ", { cartItems, subTotal });
+  console.log("klsjdf", { cartItems, subTotal });
 
   const createOrder = (data, actions) => {
     return actions.order.create({
@@ -26,7 +26,7 @@ const PayPalButton = ({ setError }) => {
         {
           amount: {
             currency_code: "USD",
-            value: "5.00",
+            value: "10.00",
           },
           description: "Test Transaction",
         },
@@ -45,7 +45,6 @@ const PayPalButton = ({ setError }) => {
   const onApprove = (data, actions) => {
     return actions.order.capture().then(function (details) {
       console.log({ details });
-
       setError({
         color: "green",
         message: "Payment Sucessfull Enjoy Your Pizza Mr " + userInfo?.name,
@@ -54,7 +53,7 @@ const PayPalButton = ({ setError }) => {
       setTimeout(() => {
         setError(null);
         cleanCart();
-      }, 8000);
+      }, 2000);
     });
   };
 

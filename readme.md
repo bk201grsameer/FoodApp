@@ -2,6 +2,11 @@
 
 <!-- ![Pizza App Logo](/path/to/your/logo.png) -->
 
+
+![Pizza App Logo](app.png)
+
+
+
 Welcome to the Pizza App! This application allows users to conveniently order pizzas of their choice, select different sizes, and make payments using PayPal. Whether you're a pizza enthusiast or just craving a delicious slice, our app has got you covered.
 
 ## Table of Contents
@@ -13,6 +18,7 @@ Welcome to the Pizza App! This application allows users to conveniently order pi
   - [Usage](#usage)
   - [PayPal Integration](#paypal-integration)
   - [Contributing](#contributing)
+  - [ScreenShots](#screenshots)
   - [License](#license)
 
 ## Features
@@ -85,6 +91,15 @@ We welcome contributions to enhance the functionality of our Pizza App. Here's h
 4. Push the changes to your branch: `git push origin feature/my-new-feature`.
 5. Submit a pull request detailing your changes.
 
+
+## ScreenShots
+1. *Fig 1: Making payment using developer paypal*
+![Pizza App Logo](payment.png)
+2. *Fig 2: Completing payment*
+![Pizza App Logo](payment1.png)
+1. *Fig 2: Finalized*
+![Pizza App Logo](final.png)
+   
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
