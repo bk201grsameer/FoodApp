@@ -98,9 +98,12 @@ We welcome contributions to enhance the functionality of our Pizza App. Here's h
 ## ScreenShots
 1. *Fig 1: Making payment using developer paypal*
 ![Pizza App Logo](payment.png)
+
 2. *Fig 2: Completing payment*
+
 ![Pizza App Logo](payment1.png)
 1. *Fig 2: Finalized*
+
 ![Pizza App Logo](final.png)
 
 
